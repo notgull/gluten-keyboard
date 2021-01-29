@@ -1,0 +1,191 @@
+# gluten-keyboard key set, by notgull
+# The following is licensed under the MIT and Apache2 licenses.
+#
+# This is largely inspired by Java AWT's VK_* set, which can be found here:
+# https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyEvent.html
+# It also has keys from the following dataset:
+# https://github.com/substack/node-keysym/blob/master/data/keysyms.txt
+# 
+# This should cover pretty much every key on the keyboard, and has the following
+# format:
+# 
+# * The name of the key
+# * If the key corresponds to a unicode character, that unicode character's number.
+#   (in hexadecimal, if you were wondering).
+# 
+# Adding to this list is not considered a breaking change for this crate. Modifiying
+# or removing any entries from this list is considered a breaking change. For an
+# example of parsing this list, see the code in generator/ in the repository root.
+
+Unknown
+Zero 30
+One 31
+Two 32
+Three 33
+Four 34
+Five 35
+Six 36
+Seven 37
+Eight 38
+Nine 39
+A 41
+B 42
+C 43
+D 44
+E 45
+F 46
+G 47
+H 48
+I 49
+J 4A
+K 4B
+L 4C
+M 4D
+N 4E
+O 4F
+P 50
+Q 51
+R 52
+S 53
+T 54
+U 55
+V 56
+W 57
+X 58
+Y 59
+Z 5A
+Accept
+Add
+Again
+AllCandidates
+Alphanumeric
+Alt
+AltGraph
+Ampersand 26
+Asterisk 2A
+BackQuote
+BackSlash 5C
+Begin
+BraceLeft 7B
+BraceRight 7D
+Cancel
+CapsLock
+Circumflex 5E
+Clear
+BracketLeft 5B
+BracketRight 5D
+CodeInput
+Colon 3A
+Comma 2C
+Compose
+ContextMenu
+Control
+Convert
+Copy
+Cut
+Decimal
+Delete
+Divide
+Dollar 24
+Down
+End
+Enter
+Equals 3D
+Escape
+EuroSign 20AC
+ExclamationMark 21
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+F14
+F15
+F16
+F17
+F18
+F19
+F20
+F21
+F22
+F23
+F24
+Final
+Find
+FullWidth
+Greater 3E
+HalfWidth
+Help
+Hiragana
+Home
+InputMethodOnOff
+Insert
+InvertedExclamationMark 00A1
+JapaneseHiragana
+JapaneseKatakana
+JapaneseRoman
+Kana
+KanaLock
+KpLeft
+KpDown
+KpRight
+KpUp
+Left
+ParenthesisLeft 28
+ParenthesisRight 29
+Less 3C
+Meta
+Minus 2D
+ModeChange
+Multiply
+DontConvert
+NumLock
+NumberSign 23
+NumpadZero 30
+NumpadOne 31
+NumpadTwo 32
+NumpadThree 33
+NumpadFour 34
+NumpadFive 35
+NumpadSix 36
+NumpadSeven 37
+NumpadEight 38
+NumpadNine 39
+PageDown
+PageUp
+Paste
+Pause
+Period 2E
+Plus 2B
+PreviousCandidate
+Props
+Quote 27
+DoubleQuote 22
+Right
+RomanCharacters
+ScrollLock
+Separator
+Shift
+Slash 2F
+Space 20
+Stop
+Subtract
+Tab
+Underscore 5F
+Undo
+Up
+Windows
+Percent 25
+Question 3F
+At 40
+Tilde 7E
+Semicolon 3B
+Backquote 60
