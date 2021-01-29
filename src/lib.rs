@@ -133,8 +133,10 @@ pub enum Key {
     Compose,
     /// The ContextMenu key.
     ContextMenu,
-    /// The Control key.
-    Control,
+    /// The LeftControl key.
+    LeftControl,
+    /// The RightControl key.
+    RightControl,
     /// The Convert key.
     Convert,
     /// The Copy key.
@@ -321,8 +323,28 @@ pub enum Key {
     ScrollLock,
     /// The Separator key.
     Separator,
-    /// The Shift key.
-    Shift,
+    /// The LeftShift key.
+    LeftShift,
+    /// The RightShift key.
+    RightShift,
+    /// The ShiftLock key.
+    ShiftLock,
+    /// The LeftMeta key.
+    LeftMeta,
+    /// The RightMeta key.
+    RightMeta,
+    /// The LeftAlt key.
+    LeftAlt,
+    /// The RightAlt key.
+    RightAlt,
+    /// The LeftSuper key.
+    LeftSuper,
+    /// The RightSuper key.
+    RightSuper,
+    /// The LeftHyper key.
+    LeftHyper,
+    /// The RightHyper key.
+    RightHyper,
     /// The Slash (/) key.
     Slash,
     /// The Space ( ) key.
@@ -353,6 +375,10 @@ pub enum Key {
     Semicolon,
     /// The Backquote (`) key.
     Backquote,
+    /// The Bar (|) key.
+    Bar,
+    /// The Backspace key.
+    Backspace,
 }
 
 impl Default for Key {
@@ -446,6 +472,7 @@ impl Key {
             Key::Tilde => Some('\u{7e}'),
             Key::Semicolon => Some('\u{3b}'),
             Key::Backquote => Some('\u{60}'),
+            Key::Bar => Some('\u{7c}'),
             _ => None,
         }
     }

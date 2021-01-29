@@ -1,7 +1,7 @@
 [package]
 name = "gluten-keyboard"
-version = "0.1.1"
-authors = ["notgull <notaseagull048@gmail.com>"]
+version = "0.1.w"
+authors = ["notgull <jtnunley01@gmail.com>"]
 edition = "2018"
 description = "Keys enum"
 license = "MIT OR Apache-2.0"

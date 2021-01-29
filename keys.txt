@@ -79,7 +79,8 @@ Colon 3A
 Comma 2C
 Compose
 ContextMenu
-Control
+LeftControl
+RightControl
 Convert
 Copy
 Cut
@@ -173,7 +174,17 @@ Right
 RomanCharacters
 ScrollLock
 Separator
-Shift
+LeftShift
+RightShift
+ShiftLock
+LeftMeta
+RightMeta
+LeftAlt
+RightAlt
+LeftSuper
+RightSuper
+LeftHyper
+RightHyper
 Slash 2F
 Space 20
 Stop
@@ -189,3 +200,5 @@ At 40
 Tilde 7E
 Semicolon 3B
 Backquote 60
+Bar 7C
+Backspace
