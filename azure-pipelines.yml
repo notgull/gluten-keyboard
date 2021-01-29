@@ -30,7 +30,7 @@ jobs:
  - job:
    displayName: "Build"
    pool:
-     vmImage: ubuntu-latests
+     vmImage: ubuntu-latest
    steps:
     - template: ci/install-rust.yml
       parameters:
