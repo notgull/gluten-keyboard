@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["notgull <notaseagull048@gmail.com>"]
 edition = "2018"
 description = "Keys enum"
-license = "MIT or Apache-2.0"
+license = "MIT OR Apache-2.0"
 homepage = "https://github.com/notgull/gluten-keyboard#readme"
 repository = "https://github.com/notgull/gluten-keyboard"
