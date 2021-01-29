@@ -1,6 +1,6 @@
 [package]
 name = "gluten-keyboard"
-version = "0.1.w"
+version = "0.1.2"
 authors = ["notgull <jtnunley01@gmail.com>"]
 edition = "2018"
 description = "Keys enum"
