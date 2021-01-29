@@ -84,19 +84,19 @@ fn process_keys<T: Write>(writer: &mut T, keys: impl Iterator<Item = Key>) {
 
 /// A set of keys.
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
-pub enum Keys {
+pub enum Key {
     ".to_string();
     let mut streq_pool = "
 }
 
-impl Default for Keys {
+impl Default for Key {
     #[inline]
     fn default() -> Self {
         Self::Unknown
     }
 }
 
-impl Keys {
+impl Key {
     #[inline]
     pub fn as_char(self) -> Option<char> {
         match self {
@@ -124,7 +124,7 @@ impl Keys {
         if let Some(value) = key.value {
             streq_pool.extend(iter::once(format!(
                 "
-                        Keys::{} => Some('\\u{{{:x}}}'),",
+                        Key::{} => Some('\\u{{{:x}}}'),",
                 &key.name, value as u32,
             )));
         }
